@@ -74,7 +74,7 @@ function App() {
         </ul>
 
         <div style={{ textAlign: "center", marginTop: '50px' }}>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLNLHSniHLNmggStJvB76AdMSbaPVWuCWSkYDl2J2miWeByw/viewform?embedded=true" width="640" height="1105" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLNLHSniHLNmggStJvB76AdMSbaPVWuCWSkYDl2J2miWeByw/viewform?embedded=true" width="640" height="1145" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
       </div>
     </Container>
