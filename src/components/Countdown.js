@@ -13,7 +13,7 @@ const Timer = styled.div`
 
 export default function Countdown() {
     const calculateTimeLeft = () => {
-        const difference = +new Date("2020-05-05T00:00:00.000+05:30") - +new Date();
+        const difference = +new Date("2020-05-05T00:00:00.000-06:30") - +new Date();
         let timeLeft = {};
 
         if (difference > 0) {
