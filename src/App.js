@@ -14,7 +14,7 @@ min-height:100vh;
     width:100%;
     text-align:left;
     margin-top:50px;
-    font-size:40px;
+    font-size:35px;
     font-weight:900;
     color:#46535E;
     letter-spacing:2px;
@@ -41,8 +41,8 @@ function App() {
         IECSE WEB Head and DEV Head Challenge
       </div>
       <div>
-        <h2 style={{ textDecoration: "underline" }}>#Prompt</h2>
-        <p style={{ fontWeight: 500, fontSize: "30px" }}>Build a Dribbble for IECSE website or an application using any of your preferred tech-stack.</p>
+        <h2 style={{ textDecoration: "underline", color: "#252C33" }}>#Prompt</h2>
+        <p style={{ fontWeight: 500, fontSize: "30px", color: "#252C33", border: "2px solid #252C33", padding: "20px" }}>Build a <i style={{ fontWeight: 900 }}>Dribbble for IECSE</i> website or an application using any of your preferred tech-stack.</p>
         <p>You have to implement as many of the following features as possible:</p>
         <ul>
           <li>User Authentication</li>
@@ -51,23 +51,30 @@ function App() {
           <li>Feature to follow other designers</li>
           <li>Feature to like designs posted by other designers</li>
         </ul>
-        <p style={{ fontWeight: 500, textDecoration: "underline" }}>Bonus Points:</p>
+        <p style={{ fontWeight: 500, textDecoration: "underline", color: "#252C33" }}>Bonus Points:</p>
         <ul>
           <li>Save other users designs</li>
           <li>Comment on other users designs</li>
           <li>Mention a user in the comments</li>
-          <li>Deploy your website (Heroku not allowed) / Release apk</li>
+          <li>Deploy your website <strong style={{ color: "#252C33" }}>(Heroku not allowed)</strong> / Release apk</li>
         </ul>
-        <p style={{ fontWeight: 500, textDecoration: "underline" }}>Judgement and Advice:</p>
+        <p style={{ fontWeight: 500, textDecoration: "underline", color: "#252C33" }}>Judgement and Advice:</p>
         <ul>
-          <li>We don't expect a perfect end product.</li>
-          <li>Play to your strengths.</li>
+          <li>We <strong style={{ color: "#252C33" }}>don't</strong> expect a perfect end product.</li>
+          <li><strong style={{ color: "#252C33" }}>Play to your strengths.</strong></li>
           <li>If you are more inclined towards backend development, usage of templates is allowed.</li>
-          <li>If you have any queries regarding the challenge, PM any one of us from the board.</li>
+          <li>If you have any queries regarding the challenge, message any one of us from the board.</li>
+        </ul>
+
+        <p style={{ fontWeight: 500, textDecoration: "underline", color: "#252C33" }}>Readup on these topics for the test:</p>
+        <ul>
+          <li>Git</li>
+          <li>DevOps</li>
+          <li>Basic Network Security</li>
         </ul>
 
         <div style={{ textAlign: "center", marginTop: '50px' }}>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLNLHSniHLNmggStJvB76AdMSbaPVWuCWSkYDl2J2miWeByw/viewform?embedded=true" width="640" height="645" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLNLHSniHLNmggStJvB76AdMSbaPVWuCWSkYDl2J2miWeByw/viewform?embedded=true" width="640" height="1105" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
       </div>
     </Container>
