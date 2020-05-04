@@ -35,7 +35,7 @@ min-height:100vh;
 `;
 function App() {
   return (
-    <Container>
+    window.innerWidth < 600 ? (<div style={{ textAlign: 'center', padding: '30px' }}><Countdown />Open on desktop</div>) : (<Container>
       <Countdown />
       <div className="title">
         IECSE WEB Head and DEV Head Challenge
@@ -77,7 +77,7 @@ function App() {
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLNLHSniHLNmggStJvB76AdMSbaPVWuCWSkYDl2J2miWeByw/viewform?embedded=true" width="640" height="1145" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
       </div>
-    </Container>
+    </Container>)
   );
 }
 
